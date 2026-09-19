@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee roasters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cairo:wght@200..1000&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Glory:ital,wght@0,100..800;1,100..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cairo:wght@200..1000&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Glory:ital,wght@0,100..800;1,100..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head> 
+<body>
+ <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid d-flex justify-content-between align-content-center align-items-center">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+      <img src="./images/logo.jpeg" alt="coffeeroasters" class="logo object-fit-contain">
+    </a>
+    <div class="navbar-nav d-flex flex-row gap-3 phone-hide">
+      <a class="nav-link fw-semibold navbar barlow phone-hide" href="index.html">HOME</a>
+      <a class="nav-link fw-semibold navbar barlow phone-hide" href="aboutus.html">ABOUT US</a>
+      <a class="nav-link fw-semibold navbar barlow phone-hide" href="subscribe.html">CREATE YOUR PLAN</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="15px" viewBox="0 0 24 24" class="phone-show nav-icon ">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="#333d4b" d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z" />
+</svg>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container d-flex align-items-center justify-content-center gap-3 mt-5 position-relative overflow-hidden">
+  <img src="./images/hero-image.png" alt="hero-image" class="hero-image  position-absolute z-0">
+  <div class="overlay position-absolute phone-show z-1 "></div>
+  <span class="position-absolute hero-text text-left d-flex flex-column gap-3 hero-span-1 z-3">
+    <h1 class="fw-bold Fraunces white hero-text-h mb-2 z-3">Great coffee<br> made simple.</h1>
+    <p class="barlow white2 mb-4 desktop-subtitle phone-hide subtitle z-3">Start your mornings with the world's best coffees. Try our expertly<br> curated artisan coffees from our best roasters delivered directly to your<br> door, at your schedule.</p>
+     <p class="barlow white2 mb-4 tablet-subtitle phone-hide subtitle z-3">Start your mornings with the world's best coffees. Try our <br> expertly curated artisan coffees from our best roasters <br> delivered directly to your door, at your schedule.</p>
+     <p class="barlow white2 mb-4  desktop-subtitle phone-show subtitle z-3">Start your mornings with the world's best <br> coffees. Try our  expertly curated artisan <br> coffees from our best roasters delivered <br> directly to your door, at your schedule.</p>
+    <button onclick="window.location.href='subscribe.html'" class="btn btn2 white rounded-3 py-2 fw-semibold Fraunces green z-3">Create your plan</button>
+  </span>
+</div>
+
+<div class="  collection-wrapper position-relative overflow-hidden">
+  <p class="our-collection Fraunces position-absolute w-100 text-center z-0">our collection</p>
+  <div class="d-flex justify-content-center  pt-5 coffee-row z-1">
+
+    <div class="d-flex flex-column align-items-center coffee-card">
+      <img src="./images/gran.png" alt="coffee" class="coffee0">
+      <h3 class="Fraunces h3-0 desktop-subtitle">Gran Espresso</h3>
+      <p class="p0 barlow text-center desktop-subtitle subtitle">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+       <div class="tablet-subtitle">
+        <h3 class="Fraunces  h3-0">Gran Espresso</h3>
+      <p class="p0 barlow text-center subtitle">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+       </div>
+    </div>
+
+    <div class="d-flex flex-column align-items-center coffee-card">
+      <img src="./images/planatlo.png" alt="coffee" class="coffee0">
+      <h3 class="Fraunces h3-0 desktop-subtitle">Planalto</h3>
+      <p class="p0 barlow text-center desktop-subtitle subtitle">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+        <div class="tablet-subtitle">
+       <h3 class="Fraunces h3-0">Planalto</h3>
+      <p class="p0 barlow text-center subtitle">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column align-items-center coffee-card">
+      <img src="./images/picollo.png" alt="coffee" class="coffee0">
+      <h3 class="Fraunces h3-0 desktop-subtitle">Piccollo</h3>
+      <p class="p0 barlow text-center desktop-subtitle subtitle">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+      <div class="tablet-subtitle">
+        <h3 class="Fraunces h3-0">Piccollo</h3>
+      <p class="p0 barlow text-center subtitle">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+      </div>
+
+    </div>
+
+    <div class="d-flex flex-column align-items-center coffee-card">
+      <img src="./images/danche.png" alt="coffee" class="coffee1">
+      <h3 class="Fraunces h3-0 desktop-subtitle">Danche</h3>
+      <p class="p0 barlow text-center desktop-subtitle subtitle">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+      <div class="tablet-subtitle">
+        <h3 class="Fraunces h3-0">Danche</h3>
+      <p class="p0 barlow text-center">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<div class="d-flex div-1 justify-content-center align-self-center position-relative text-center ">
+  <div class="choose-us-container position-absolute ">
+    <h3 class="choose-us white Fraunces phone-hide">Why choose us?</h3>
+    <h3 class="choose-us white Fraunces phone-show">Why choose <br> us?</h3>
+    <p class="choose-us-text barlow white2 subtitle ">A large part of our role is choosing which particular coffees will be featured <br>
+in our range. This means working closely with the best coffee growers to give <br>
+you a more impactful experience on every level.</p>
+  </div> 
+  <div class="d-flex card-container position-absolute align-content-center justify-content-center align-items-center ">
+ <div class="card green">
+  <svg xmlns="http://www.w3.org/2000/svg" width="71px" height="71px" viewBox="0 0 14 14" class="icon2 desktop-subtitle">
+	<path d="M0 0h14v14H0z" fill="none" />
+	<path fill="#FDD6BA" fill-rule="evenodd" d="M2.175 12.356c2.221 1.867 6.048 1.27 8.75-1.431C13.37 8.48 14.09 5.114 12.822 2.85q-.073.26-.17.553c-.328.986-.894 2.252-1.837 3.196c-.54.54-1.2.79-1.859.91c-.635.116-1.315.116-1.928.116H7c-.645 0-1.219.002-1.733.095c-.501.091-.895.262-1.198.565c-.743.743-1.232 1.796-1.536 2.707a11 11 0 0 0-.358 1.364m-.997-1.206C-.09 8.886.63 5.52 3.075 3.075C5.777.373 9.604-.222 11.825 1.644l-.047.23c-.062.286-.162.685-.312 1.134c-.303.91-.792 1.964-1.535 2.707c-.303.303-.697.474-1.198.565c-.514.093-1.088.095-1.733.095h-.028c-.613 0-1.293 0-1.928.115c-.659.12-1.319.371-1.859.911c-.943.944-1.509 2.21-1.837 3.196q-.097.292-.17.553" clip-rule="evenodd" />
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="71px" height="71px" viewBox="0 0 14 14" class="icon2 tablet-subtitle">
+	<path d="M0 0h14v14H0z" fill="none" />
+	<path fill="#FDD6BA" fill-rule="evenodd" d="M2.175 12.356c2.221 1.867 6.048 1.27 8.75-1.431C13.37 8.48 14.09 5.114 12.822 2.85q-.073.26-.17.553c-.328.986-.894 2.252-1.837 3.196c-.54.54-1.2.79-1.859.91c-.635.116-1.315.116-1.928.116H7c-.645 0-1.219.002-1.733.095c-.501.091-.895.262-1.198.565c-.743.743-1.232 1.796-1.536 2.707a11 11 0 0 0-.358 1.364m-.997-1.206C-.09 8.886.63 5.52 3.075 3.075C5.777.373 9.604-.222 11.825 1.644l-.047.23c-.062.286-.162.685-.312 1.134c-.303.91-.792 1.964-1.535 2.707c-.303.303-.697.474-1.198.565c-.514.093-1.088.095-1.733.095h-.028c-.613 0-1.293 0-1.928.115c-.659.12-1.319.371-1.859.911c-.943.944-1.509 2.21-1.837 3.196q-.097.292-.17.553" clip-rule="evenodd" />
+</svg>
+ <h3 class="card-text white Fraunces quality">Best quality</h3>
+ <p class="white barlow card-subtext desktop-subtitle phone-hide subtitle">Discover an endless variety of the world’s <br> best artisan coffee from each of our <br> roasters.</p>
+ <p class="white barlow card-subtext1 tablet-subtitle phone-hide subtitle">Discover an endless variety of the world’s  best artisan <br> coffee from each of our  roasters.</p>
+  <p class="white barlow card-subtext1 phone-show subtitle">Discover an endless variety of the world’s  best artisan  coffee from each of our  roasters.</p>
+
+ </div>
+  <div class="card green">
+    <svg xmlns="http://www.w3.org/2000/svg" width="90px" height="90px" viewBox="0 0 24 24" class="green1 icon1 tablet-subtitle">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="#FDD6BA" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20 12v9.4a.6.6 0 0 1-.6.6H4.6a.6.6 0 0 1-.6-.6V12m17.4-5H2.6a.6.6 0 0 0-.6.6v3.8a.6.6 0 0 0 .6.6h18.8a.6.6 0 0 0 .6-.6V7.6a.6.6 0 0 0-.6-.6M12 22V7m0 0H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7m0 0h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7" />
+</svg>
+ <svg xmlns="http://www.w3.org/2000/svg" width="90px" height="90px" viewBox="0 0 24 24" class="green1 icon1 desktop-subtitle">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="#FDD6BA" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20 12v9.4a.6.6 0 0 1-.6.6H4.6a.6.6 0 0 1-.6-.6V12m17.4-5H2.6a.6.6 0 0 0-.6.6v3.8a.6.6 0 0 0 .6.6h18.8a.6.6 0 0 0 .6-.6V7.6a.6.6 0 0 0-.6-.6M12 22V7m0 0H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7m0 0h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7" />
+</svg>
+ <h3 class="card-text white Fraunces benefits">Exclusive benefits</h3>
+ <p class="white barlow card-subtext desktop-subtitle subtitle">Special offers and swag when you <br> subscribe, including 30% off your first <br> shipment.</p>
+  <p class="white barlow card-subtext2 tablet-subtitle subtitle">Special offers and swag when you  subscribe, <br> including 30% off your first  shipment.</p>
+
+</div>
+  <div class="card green">
+    <svg xmlns="http://www.w3.org/2000/svg" width="90px" height="90px" viewBox="0 0 640 512" class="icon3 desktop-subtitle">
+	<path d="M0 0h640v512H0z" fill="none" />
+	<path fill="#FDD6BA" d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H112C85.5 0 64 21.5 64 48v48H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h272c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16M160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m80-208H416V144h44.1l99.9 99.9z" />
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="90px" height="90px" viewBox="0 0 640 512" class="icon3 tablet-subtitle">
+	<path d="M0 0h640v512H0z" fill="none" />
+	<path fill="#FDD6BA" d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H112C85.5 0 64 21.5 64 48v48H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h272c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16M160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m80-208H416V144h44.1l99.9 99.9z" />
+</svg>
+     <h3 class="card-text white Fraunces benefits">Free shipping</h3>
+ <p class="white barlow card-subtext desktop-subtitle phone-hide subtitle">We cover the cost and coffee is delivered <br> fast. Peak freshness: guaranteed.</p>
+ <p class="white barlow card-subtext3 tablet-subtitle phone-hide subtitle">We cover the cost and coffee is delivered  fast. Peak<br> freshness: guaranteed.</p>
+  <p class="white barlow card-subtext phone-show subtitle">We cover the cost and coffee is delivered  fast. Peak freshness: guaranteed.</p>
+
+  </div>
+ 
+</div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="how-it-work-container">
+<p class="section-label Fraunces">How it works</p>
+
+  <div class="timeline-wrapper phone-hide">
+    <div class="timeline-line phone-hide"></div>
+    <div class="d-flex position-relative justify-content-between z-1 green1">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="step-number Fraunces o">01</div>
+      <div class="step-title Fraunces">Pick your <br> coffee</div>
+      <p class="step-desc barlow desktop-subtitle subtitle">Select from our evolving range of artisan <br> coffees. Our beans are ethically sourced <br> and we pay fair prices for them. There are <br> new coffees in all profiles every month <br> for you to try out.</p>
+       <p class="step-desc barlow tablet-subtitle subtitle">Select from our evolving range<br> of artisan  coffees. Our beans<br> are ethically sourced  and we<br> pay fair prices for them. There <br>are  new coffees in all profiles <br> every month  for you to try out.</p>
+
+    </div>
+    <div class="col-md-4">
+      <div class="step-number Fraunces">02</div>
+      <div class="step-title Fraunces">Choose the <br> frequency</div>
+      <p class="step-desc barlow desktop-subtitle subtitle">Customize your order frequency, <br> quantity, even your roast style and grind <br> type. Pause, skip or cancel your <br> subscription with no commitment <br> through our online portal.</p>
+      <p class="step-desc barlow tablet-subtitle subtitle">Customize your order <br> frequency, quantity, even your <br> roast style and grind  type. <br> Pause, skip or cancel your <br> subscription with no <br> commitment  through our online <br> portal.</p>
+
+    </div>
+    <div class="col-md-4">
+      <div class="step-number Fraunces">03</div>
+      <div class="step-title Fraunces">Receive and <br> enjoy!</div>
+      <p class="step-desc barlow desktop-subtitle subtitle">We ship your package within 48 hours, <br> freshly roasted. Sit back and enjoy <br> award-winning world-class coffees <br> curated to provide a distinct tasting <br> experience.</p>
+      <p class="step-desc barlow tablet-subtitle subtitle">We ship your package within 48 <br> hours,  freshly roasted. Sit back <br> and enjoy  award-winning world- <br>class coffees  curated to provide <br> a distinct tasting  experience.</p>
+
+    </div>
+  </div>
+
+  <button onclick="window.location.href='subscribe.html'" class="btn-cta green white Fraunces" >Create your plan</button>
+  </div>
+  <footer class=" d-flex align-items-center justify-content-between " >
+  <div class="  container-fluid icons-container">
+    <div class="d-flex align-items-center justify-content-between align-content-center">
+
+      <img src="./images/img-footer.jpeg" alt="logo">
+
+      <div class="d-flex  icon-container ">
+        <a href="#" class="barlow footer-icon">HOME</a>
+        <a href="aboutus.html" class="barlow footer-icon">ABOUT US</a>
+        <a href="#" class="barlow footer-icon">CREATE YOUR PLAN</a>
+      </div>
+
+      <div class="d-flex gap-4">
+  <a href="#"><i class="fab fa-facebook-f "></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+
+    </div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
