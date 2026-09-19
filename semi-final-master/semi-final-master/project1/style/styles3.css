@@ -767,11 +767,12 @@ footer i {
   height: 144px;
 }
 footer {
-    width: 343px; 
-    height: 176.0006561279297px; 
-    margin-left: 16px;
-    margin-top: 16px;
+    width: 100%; 
+    height: auto; 
+    padding: 30px 20px;
 }
+
+
 footer .icons-container > div {
     flex-direction: column !important; 
     gap: 24px !important; 
@@ -779,14 +780,13 @@ footer .icons-container > div {
 }
 
 
-.icon-container {
+footer .icon-container {
     flex-direction: row; 
-   justify-content: space-between !important;
-    font-size: 12px;
+    gap: 16px !important;
 }
 
 footer img {
-    width: 237.000244140625px;
+    width: 160px;
     height: auto;
     margin-bottom: 10px;
 }
