@@ -573,13 +573,13 @@ footer i {
 .head-quarters{
     flex-direction: column !important;
 }
-    footer {
-    width: 100%; 
-    height: auto; 
-    padding: 30px 20px;
+    
+footer {
+    width: 343px; 
+    height: 176.0006561279297px; 
+    margin-left: 16px;
+    margin-top: 750px;
 }
-
-
 footer .icons-container > div {
     flex-direction: column !important; 
     gap: 24px !important; 
@@ -587,13 +587,14 @@ footer .icons-container > div {
 }
 
 
-footer .icon-container {
+.icon-container {
     flex-direction: row; 
-    gap: 16px !important;
+   justify-content: space-between !important;
+    font-size: 12px;
 }
 
 footer img {
-    width: 160px;
+    width: 237.000244140625px;
     height: auto;
     margin-bottom: 10px;
 }
